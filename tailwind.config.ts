@@ -9,7 +9,12 @@ const config: Config = {
         DEFAULT: '10px',
         sm: '20px',
         xl: '30px',
-        '2xl': '60px',
+        '2xl': '12px',
+        '3xl': '20px',
+        '4xl': '18px',
+        '5xl': '10px',
+        '6xl': '30px',
+        '7xl': '20px',
       },
     },
     screens: {
