@@ -9,6 +9,7 @@ const config: Config = {
         DEFAULT: "10px",
         sm: "20px",
         xl: "30px",
+        md: "34px",
         "2xl": "12px",
         "3xl": "20px",
         "4xl": "18px",
