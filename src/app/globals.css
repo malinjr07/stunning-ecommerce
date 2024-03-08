@@ -7,7 +7,7 @@
     @apply m-0 p-0 outline-0;
   }
   body {
-    @apply bg-alabaster overflow-x-hidden;
+    @apply overflow-x-hidden bg-alabaster;
   }
   ul,
   li,
@@ -19,5 +19,10 @@
   }
   img {
     @apply align-middle;
+  }
+  section,
+  header,
+  footer {
+    @apply bg-white;
   }
 }
