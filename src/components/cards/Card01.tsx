@@ -1,6 +1,6 @@
 import React from "react";
 
-const NeonBorder = () => {
+const Card01 = () => {
   return (
     <div className="relative flex h-[400px] w-[300px] items-center justify-center overflow-hidden rounded-[20px] bg-[#1e1e1e] ">
       <p className="z-30 text-[10em] font-bold text-white ">46</p>
@@ -10,4 +10,4 @@ const NeonBorder = () => {
   );
 };
 
-export default NeonBorder;
+export default Card01;

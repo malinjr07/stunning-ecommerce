@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const ProductCard02 = () => {
+const Card02 = () => {
   return (
     <div className="relative flex h-[400px] w-[320px] flex-col justify-between bg-transparent  ">
       <div className="imgBx relative h-60 w-full rounded-2xl bg-[#f00f00] ">
@@ -24,4 +24,4 @@ const ProductCard02 = () => {
   );
 };
 
-export default ProductCard02;
+export default Card02;
