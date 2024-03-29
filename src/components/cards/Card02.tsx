@@ -3,14 +3,9 @@ import React from "react";
 
 const Card02 = () => {
   return (
-    <div className="relative flex h-[400px] w-[320px] flex-col justify-between bg-transparent  ">
+    <div className="card02 relative flex h-[400px] w-[320px] flex-col justify-between bg-transparent ">
       <div className="imgBx relative h-60 w-full rounded-2xl bg-[#f00f00] ">
-        <Image
-          src={"/images/img_login.png"}
-          fill
-          alt=""
-          className="object-cover"
-        />
+        <Image src={"/sample.jpeg"} fill alt="" className="object-cover" />
         <span className="imgCorner absolute bottom-0 left-1/2 h-[20px] w-[20px] rounded-[50%] bg-transparent " />
         <span className="imgCorner absolute bottom-[70px] left-0 h-[25px] w-[25px] rounded-[50%] bg-transparent " />
       </div>

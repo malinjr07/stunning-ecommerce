@@ -1,6 +1,7 @@
+"use client";
 import React, { useRef, useState } from "react";
 
-const NavBar = () => {
+const NavBar01 = () => {
   const [change, setChange] = useState(false);
   const marker = useRef<HTMLDivElement>(null);
   return (
@@ -8,7 +9,7 @@ const NavBar = () => {
       onClick={() => {
         setChange(!change);
       }}
-      className="relative flex gap-[30px] bg-[#222327] px-[60px] py-[15px] "
+      className="navBar01 relative flex gap-[30px] bg-[#222327] px-[60px] py-[15px] "
     >
       <button
         type="button"
@@ -114,4 +115,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default NavBar01;

@@ -3,7 +3,7 @@ import Seedling from "../icons/Seedling";
 
 const Card04 = () => {
   return (
-    <div className="card h-80 w-80 rounded-[50px] bg-gradient-to-tl from-[#00ffd6] to-[#08e260] transition duration-500 ease-in-out  ">
+    <div className="card04 h-80 w-80 rounded-[50px] bg-gradient-to-tl from-[#00ffd6] to-[#08e260] transition duration-500 ease-in-out  ">
       <div className="logo absolute right-0 top-0  ">
         <span className="circle circle1 absolute right-2 top-2 aspect-square w-[170px] rounded-full bg-[#00f9cd33] backdrop-blur-sm transition duration-500 ease-in-out"></span>
         <span className="circle circle2 absolute right-[10px] top-[10px] aspect-square w-[140px] rounded-full bg-[#00f9cd33] backdrop-blur-sm transition delay-300 duration-500 ease-in-out"></span>

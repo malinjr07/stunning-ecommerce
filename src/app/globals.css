@@ -30,38 +30,37 @@
   footer {
     @apply bg-white;
   }
+}
+.before {
+  box-shadow:
+    15px 30px #29fd53,
+    5px 60px #29fd53,
+    -15px 15px #222327,
+    -10px 45px #222327;
+}
 
-  .before {
-    box-shadow:
-      15px 30px #29fd53,
-      5px 60px #29fd53,
-      -15px 15px #222327,
-      -10px 45px #222327;
-  }
+.beforeClicked {
+  box-shadow:
+    -15px 30px #29fd53,
+    -5px 60px #29fd53,
+    -10px 15px #222327,
+    -20px 45px #222327;
+}
 
-  .beforeClicked {
-    box-shadow:
-      -15px 30px #29fd53,
-      -5px 60px #29fd53,
-      -10px 15px #222327,
-      -20px 45px #222327;
-  }
+.after {
+  box-shadow:
+    5px 30px #29fd53,
+    -15px 60px #29fd53,
+    15px 15px #222327,
+    10px 45px #222327;
+}
 
-  .after {
-    box-shadow:
-      5px 30px #29fd53,
-      -15px 60px #29fd53,
-      15px 15px #222327,
-      10px 45px #222327;
-  }
-
-  .afterClicked {
-    box-shadow:
-      10px 30px #29fd53,
-      20px 60px #29fd53,
-      15px 15px #222327,
-      25px 45px #222327;
-  }
+.afterClicked {
+  box-shadow:
+    10px 30px #29fd53,
+    20px 60px #29fd53,
+    15px 15px #222327,
+    25px 45px #222327;
 }
 
 @keyframes animate {
@@ -74,116 +73,189 @@
   }
 }
 
-.leftCorner {
+.card02 .leftCorner {
   box-shadow: -10px -10px 0 #fff;
 }
 
-.rightCorner {
+.card02 .rightCorner {
   box-shadow: -10px 10px 0 #232949;
 }
 
-.imgCorner {
+.card02 .imgCorner {
   box-shadow: -10px 10px 0 #fff;
 }
 
-.borderGradient {
+.card02 .borderGradient {
   background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
 }
 
-.borderGradient:hover {
+.card02 .borderGradient:hover {
   box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
 }
 
-.card,
-.footer .social,
-.glass,
-.logo,
-.footer {
+.card04,
+.card04 .footer .social,
+.card04 .glass,
+.card04 .logo,
+.card04 .footer {
   transform-style: preserve-3d;
 }
 
-.card {
+.card04 {
   box-shadow:
     #05471100 40px 50px 25px,
     #02140033 0px 25px 25px;
 }
 
-.card:hover {
+.card04:hover {
   box-shadow:
     #0547110d 30px 50px 25px,
     #05471111 0px 25px 30px;
   transform: rotate3d(1, 1, 0, 30deg);
 }
 
-.glass {
+.card04 .glass {
   transform: translate3d(0, 0, 25px);
 }
 
-.circle {
+.card04 .circle {
   box-shadow: #64646f33 -10px 10px 20px;
 }
 
-.circle1 {
+.card04 .circle1 {
   transform: translate3d(0, 0, 20px);
 }
 
-.circle2 {
+.card04 .circle2 {
   transform: translate3d(0, 0, 40px);
 }
 
-.card:hover .circle2 {
+.card04:hover .circle2 {
   transform: translate3d(0, 0, 60px);
 }
 
-.circle3 {
-  transform: translate3d(0, 0, 60px);
-}
-
-.card:hover .circle3 {
+.card04:hover .circle3 {
   transform: translate3d(0, 0, 80px);
 }
 
-.circle4 {
+.card04 .circle4 {
   transform: translate3d(0, 0, 80px);
 }
 
-.card:hover .circle4 {
+.card04:hover .circle4 {
   transform: translate3d(0, 0, 100px);
 }
 
-.circle5 {
+.card04 .circle5 {
   transform: translate3d(0, 0, 100px);
 }
 
-.card:hover .circle5 {
+.card04:hover .circle5 {
   transform: translate3d(0, 0, 120px);
 }
 
-.link:hover {
+.card04 .link:hover {
   transform: translate3d(0, 0, 10px);
 }
 
-.social_icons {
+.card04 .social_icons {
   box-shadow: #05471180 7px 7px 5px;
 }
 
-.social_icons:nth-child(1) {
+.card04 .social_icons:nth-child(1) {
   transition: 0.2s ease-in-out 0.2s;
 }
 
-.social_icons:nth-child(2) {
+.card04 .social_icons:nth-child(2) {
   transition: 0.2s ease-in-out 0.4s;
 }
 
-.social_icons:nth-child(3) {
+.card04 .social_icons:nth-child(3) {
   transition: 0.2s ease-in-out 0.6s;
 }
 
-.card:hover .social_icons {
+.card04 .card:hover .social_icons {
   transform: translate3d(0, 0, 50px);
   box-shadow: #05471133 -5px 20px 10px;
 }
 
-.card {
+.card05 .card {
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card05 .circle {
+  clip-path: circle(180px at center 0);
+}
+
+.card05 .card:hover .circle {
+  clip-path: circle(600px);
+}
+
+.card05 .card:hover .content a {
+  box-shadow:
+    1px 1px 2px rgba(0, 0, 0, 0.2),
+    -1px -1px 2px rgba(255, 255, 255, 0.4);
+}
+.card05 .card:hover .content a:active {
+  box-shadow:
+    inset 1px 1px 1px rgba(0, 0, 0, 0.1),
+    inset 5px 5px 5px rgba(255, 255, 255, 0.04),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.07),
+    inset -1px -1px 2px rgba(255, 255, 255, 0.4);
+}
+
+@keyframes colorChange {
+  0% {
+    color: #ffffff;
+  }
+  50% {
+    color: #b1b493;
+  }
+  80% {
+    color: #4f8a8b;
+  }
+  100% {
+    color: #ffffff;
+  }
+}
+
+.card06 {
+  min-height: 100vh;
+  background: #25252b;
+}
+
+.card06 .box {
+  background: repeating-conic-gradient(
+    from var(--a),
+    #ff2770 0%,
+    #ff2770 5%,
+    transparent 5%,
+    transparent 40%,
+    #ff2770 50%
+  );
+  animation: animate 4s linear infinite;
+}
+.card06 .before {
+  animation: animate 4s linear -1s infinite;
+  background: repeating-conic-gradient(
+    from var(--a),
+    #45f3ff 0%,
+    #45f3ff 5%,
+    transparent 5%,
+    transparent 40%,
+    #45f3ff 50%
+  );
+}
+@property --a {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+@keyframes animate {
+  0% {
+    --a: 0deg;
+  }
+  100% {
+    --a: 360deg;
+  }
 }
